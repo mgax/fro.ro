@@ -8,5 +8,15 @@
 {% include navbar.html %}
 
 <div class="container">
-  {{ content }}
+  <div class="row">
+    <div class="col-md-2">
+      {% include sidebar-left.html %}
+    </div>
+    <div class="col-md-8">
+      {{ content }}
+    </div>
+    <div class="col-md-2">
+      {% include sidebar-right.html %}
+    </div>
+  </div>
 </div>
