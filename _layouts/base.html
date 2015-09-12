@@ -2,12 +2,15 @@
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.title }}</title>
 <link rel="stylesheet" href="//cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+<link rel="stylesheet" href="{{ site.base_url }}/style.css">
 
 <body>
 
 {% include navbar.html %}
 
 <div class="container">
+  <div class="banner"></div>
+
   <div class="row">
     <div class="col-md-2">
       {% include sidebar-left.html %}
