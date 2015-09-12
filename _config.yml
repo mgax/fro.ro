@@ -1,0 +1,6 @@
+title: Federația Română de Orientare
+base_url: '/fro.ro'
+defaults:
+  - scope: {path: ""}
+    values:
+      layout: "base"
